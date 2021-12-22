@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./screenshots/screenshot1.png" alt="screenshot1" title="screenshot1">
+  <img src="./screenshots/screenshot1.PNG" alt="screenshot1" title="screenshot1">
 </p>
 
 
@@ -7,7 +7,13 @@
 
 Prix des voitures neuves en Tunisie, Annonces auto, Voitures d'occasion, Guide pratique, Actualités et Nouveautés, Photos et Vidéos, Fiches techniques, ...
 
-
+<p align="center">
+  <img src="./screenshots/screenshot2.PNG" alt="screenshot2" title="screenshot2">
+</p>
+\
+<p align="center">
+  <img src="./screenshots/screenshot3.PNG" alt="screenshot3" title="screenshot3">
+</p>
 
 
 ## Scripts disponibles
