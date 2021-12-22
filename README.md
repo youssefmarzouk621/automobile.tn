@@ -12,7 +12,7 @@ Prix des voitures neuves en Tunisie, Annonces auto, Voitures d'occasion, Guide p
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot4.PNG" alt="screenshot4" title="screenshot4">
+  <img src="./screenshots/screenshot4.png" alt="screenshot4" title="screenshot4">
 </p>
 
 
