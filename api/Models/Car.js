@@ -17,7 +17,11 @@ const car = new mongoose.Schema({
   category: {
     type: Schema.ObjectId,
     ref: 'categories'
-  }
+  },
+  brand: {
+    type: Schema.ObjectId,
+    ref: 'brands'
+  },
 
 },{timestamps:true})
 

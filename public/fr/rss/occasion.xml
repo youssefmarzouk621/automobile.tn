@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>www.automobile.tn</title>
+        <link>https://www.automobile.tn</link>
+        <description></description>
+        <language>fr-FR</language>
+        <copyright>Droits de reproduction et de diffusion réservés © automobile.tn</copyright>
+        <managingEditor>contact@automobile.tn (Automobile.tn)</managingEditor>
+        <webMaster>contact@automobile.tn (Automobile.tn)</webMaster>
+        <pubDate>Mon, 20 Dec 2021 00:56:51 +0100</pubDate>
+        <lastBuildDate>Mon, 20 Dec 2021 00:56:51 +0100</lastBuildDate>
+        <category></category>
+        <docs>https://www.automobile.tn/fr/rss/occasion.xml</docs>
+        <ttl>1</ttl>
+        <image>
+            <title>www.automobile.tn</title>
+            <url>https://www.automobile.tn/images/logo-rss.gif</url>
+            <link>https://www.automobile.tn</link>
+            <description></description>
+        </image>
+    </channel>
+</rss>

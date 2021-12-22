@@ -1,0 +1,21 @@
+{
+  "name": "AutomobileTn",
+  "short_name": "AutomobileTn",
+  "start_url": "/fr",
+  "display": "standalone",
+  "gcm_sender_id": "482941778795",
+  "theme_color": "#D90000",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "/images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/splash.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ const route = express.Router();
 const index = (req,res,next)  => {
 	try 
 	{
-	    Car.find().populate('category').exec(function (err, cars) {
+	    Car.find().populate('category').populate('brand').exec(function (err, cars) {
 	        if (err) {
 	            return res.json({
 	            message: ('error : ' + err)
@@ -34,7 +34,7 @@ const index = (req,res,next)  => {
 const show = (req,res,next)  => {
 	const id = req.params.id;
 
-	Car.findById(id).populate('category').exec(function (err, car) {
+	Car.findById(id).populate('category').populate('brand').exec(function (err, car) {
 	        if (err) {
 	            return res.json({
 	            status: 0,
@@ -53,7 +53,8 @@ const store = (req,res,next) => {
 		name: req.body.name,
 		description: req.body.description,
 		image: req.body.image,
-		category: req.body.category
+		category: req.body.category,
+		brand:req.body.brand
 	})
 	car.save()
 	.then(response => {
