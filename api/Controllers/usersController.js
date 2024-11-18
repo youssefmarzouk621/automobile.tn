@@ -98,31 +98,12 @@ const login = (req,res,next) => {
 					}))
 
 				}else{	
-					res.status(201).send(JSON.stringify({ //201 incorrect password
-						_id:"",
-						firstName:"",
-						lastName:"",
-						email:"",
-						password:"",
-						phone:"",
-						sexe:"",
-						avatar:"",
-						token:""
-					}))
+					res.status(403).send("invalid credentials"
+					)
 				}
 			})
 		}else{
-			res.status(202).send(JSON.stringify({ //202 user not found
-				_id:"",
-				firstName:"",
-				lastName:"",
-				email:"",
-				password:"",
-				phone:"",
-				sexe:"",
-				avatar:"",
-				token:""
-			}))
+			res.status(403).send("invalid credentials")
 		}
 	})
 }
